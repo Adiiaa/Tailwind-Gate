@@ -53,8 +53,8 @@
             </div>
         </div>
         <!-- nav bar -->
-        <nav class="bg-blue-700 font-serif text-white hidden md:flex gap-6 text-sm font-semibold 
-                tracking-wide w-full h-20  -top-24 left-0 z-50">
+        <nav class="bg-blue-700 font-serif sticky text-white hidden md:flex gap-6 text-sm font-semibold 
+                tracking-wide w-full h-20 top-0 rounded-[10px] left-0 z-30 items-center">
             <a href="#" class="hover:text-white text-slate-300">HOME</a>
             <a href="#" class="hover:text-white text-slate-300">SCHEMES</a>
             <a href="#" class="hover:text-white text-slate-300">INVESTMENT</a>
@@ -71,7 +71,8 @@
             <div class="absolute insert-0 bg-gradient-to-r from-white/100 via-white/95 to-transparent"></div>
             <div class="absolute inset-0 bg-black/30 flex items-center px-10">
                 <div class="space-y-4">
-                    <div class="text-2xl font-bold">Our Health Our Future</div>
+                    <div class="text-2xl font-bold">Our Health <span class="font-bold text-yellow-400">Our Future</span>
+                    </div>
                     <div class="text-lg">Medical</div>
                     <button class="bg-blue-400 hover:bg-white hover:text-blue-500 text-white px-5 
                 py-2 rounded-full font-semibold transition">Learn More</button>
@@ -84,24 +85,28 @@
         <div class="flex relative z-10 flex-wrap justify-center items-center p-4 max-w-6xl mx-auto -mt-24">
             <!-- box1 -->
             <div class="flex flex-col bg-white bg-opacity-90 text-gray-900 p-6 rounded shadow w-64 h-full">
+                <img src="./src/member.PNG" alt="member first icon" class="h-5 w-5">
                 <h1 class="text-xl font-bold mb-2">Member first</h1>
                 <p><span class="text-blue-600 font-semibold">13 Million</span> of Rwandans are <br> covered by RSSB
                     services</p>
             </div>
             <!-- box2 -->
             <div class="flex flex-col bg-white bg-opacity-90 text-gray-900 p-6 rounded shadow w-64 h-full">
+                <img src="./src/experience.PNG" alt="Experience icon" class="h-5 w-5">
                 <h1 class="text-xl font-bold mb-2">Experience</h1>
                 <p><span class="text-blue-600 font-semibold">60 years </span>of service for your <br> safety and
                     well-being.</p>
             </div>
             <!-- box3 -->
             <div class="flex flex-col bg-white bg-opacity-90 text-gray-900 p-6 rounded shadow w-64 h-full">
+                <img src="./src/branches.PNG" alt="Branches" class="h-5 w-5">
                 <h1 class="text-xl font-bold mb-2">branches</h1>
                 <p>Our services decentralized in <br> <span class="text-blue-600 font-semibold">30 branches</span> for
-                    your <b> <span class="font-semibold">satisfaction</span></p>
+                    your <b> <span class="font-normal">satisfaction</span></p>
             </div>
             <!-- box4 -->
             <div class="flex flex-col bg-white bg-opacity-90 text-gray-900 p-6 rounded shadow w-64 h-full">
+                <img src="./src/Data.PNG" alt="Data" class="h-5 w-5">
                 <h1 class="text-xl font-bold mb-2">Data driven</h1>
                 <p class="font-normal">Learning from our data to <br> improve the services offered <br> to our members
                 </p>
@@ -120,49 +125,56 @@
         </div>
         <!-- schemes -->
         <div>
-            <div>
-                <h1>SOCIAL PROTECTION SCHEMES</h1>
+            <div class="flex items-center justify-center mt-20">
+                <div class="w-[30px] h-[3px] bg-yellow-400"></div>
+                    <h1 class="font-bold text-xl text-blue-900">SOCIAL PROTECTION SCHEMES</h1>
             </div>
             <!-- boxes -->
-            <!-- Two-Row Box Grid -->
+            <!-- Two-Row -->
             <div class="grid grid-cols-3 gap-6 max-w-6xl mx-auto py-12 px-4">
                 <!-- Box 1 -->
-                <div class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2">
+                <div
+                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover ">
                     <img src="./src/box1.SVG" alt="Pension Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">PENSION SCHEMES</h1>
                     <p class="text-gray-600 text-sm">Retire With Dignity</p>
                 </div>
 
                 <!-- Box 2 -->
-                <div class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2">
+                <div
+                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box2.SVG" alt="Hazards Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">OCCUPATIONAL HAZARDS</h1>
                     <p class="text-gray-600 text-sm">We are here for you</p>
                 </div>
 
                 <!-- Box 3 -->
-                <div class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2">
+                <div
+                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box3.SVG" alt="Medical Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">MEDICAL SCHEMES</h1>
                     <p class="text-gray-600 text-sm">Our Health, Our Future</p>
                 </div>
 
                 <!-- Box 4 -->
-                <div class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2">
+                <div
+                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box4.SVG" alt="CBHI Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">CBHI SCHEMES</h1>
                     <p class="text-gray-600 text-sm">Giving Your Happiness At Best Rate</p>
                 </div>
 
                 <!-- Box 5 -->
-                <div class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2">
+                <div
+                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box5.SVG" alt="EjoHeza Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">EJOHEZA</h1>
                     <p class="text-gray-600 text-sm">Start Early And Reap the Reward</p>
                 </div>
 
                 <!-- Box 6 -->
-                <div class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2">
+                <div
+                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box6.SVG" alt="Maternity Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">MATERNITY LEAVE</h1>
                     <p class="text-gray-600 text-sm">Enjoy Your Maternity Leave With Your Full Salary</p>
@@ -173,8 +185,8 @@
 
         <!-- get started -->
         <div class="bg-gray-100 py-12 px-6">
-            <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-                <div class="flex-1 flex flex-col space-y-6">
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+                <div class="flex-1 flex flex-col space-y-6 w-[50%]">
                     <h1 class="text-3xl md:text-4xl font-bold text-gray-700 leading-snug">
                         Never miss your <br> contributions again</h1>
                     <p class="text-gray-700 text-base font-normal md:text-lg leading-relaxed">
@@ -185,25 +197,27 @@
                         and security. Enjoy convenience and transparency. Take control of your future and join Imisanzu
                         today.
                     </p>
-                    <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded w-max">
+                    <button class="bg-blue-600 hover:bg-white hover:text-blue-600 hover:border-2 hover:border-blue-500 text-white font-semibold px-6 py-3 rounded w-max">
                         Get Started</button>
                 </div>
-                <div class="flex-1">
-                    <img src="./src/image.JPEG" alt="RSSB image" class="w-full h-auto rounded shadow-lg">
-                </div>
+                    <img src="./src/image.JPEG" alt="RSSB image" class="h-auto w-2/3 rounded pr-24 shadow-lg">
+                
             </div>
         </div>
 
         <!-- Digital Transformation -->
         <div>
-            <h1>DIGITAL TRANSFORMATION</h1>
-            <p>A major focus for RSSB going into 2025 is to transform into a member <br> first,
+            <div class="mt-16 ml-60">
+            <h1 class="font-bold text-black text-xl">Digital Transformation</h1>
+            <p class="text-xl text-gray-500 font-normal mt-2">A major focus for RSSB going into 2025 is to transform into a member <br> first,
                 <span class="text-yellow-400">data driven</span>, high performing organization and a big part of that is
                 to <br>
                 complete its <span class="text-yellow-400">shift to digital</span>.
             </p>
+            </div>
             <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div>
+                    <img src="./src/increase.PNG">
                     <h1 class="text-xl font-semibold text-gray-800 mb-3">Changing from Legacy processes <br> and systems
                     </h1>
                     <p class="text-gray-700 leading-relaxed text-sm font-normal">As we enter a new era of technology
@@ -215,6 +229,7 @@
                     </p>
                 </div>
                 <div>
+                    <img src="./src/none.PNG">
                     <h1 class="text-xl font-semibold text-gray-800 mb-3">Non-paper based processes</h1>
                     <p class="text-gray-700 leading-relaxed text-sm font-normal">We are moving away from the time-taking
                         <br> processes as we process
@@ -224,6 +239,7 @@
                     </p>
                 </div>
                 <div>
+                    <img src="./src/tick.PNG">
                     <h1 class="text-xl font-semibold text-gray-800 mb-3">Ensure the compliance rate in <br> mandatory
                         contributions</h1>
                     <p class="text-gray-700 leading-relaxed text-sm font-normal">Digital-led compliance for private and
@@ -239,7 +255,7 @@
         <!-- CEO -->
         <div class="bg-gray-100 py-12 px-6">
             <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-6 items-start">
-                <div class="w-1 h-48 bg-yellow-400"></div>
+                <div class="w-1 h-80 bg-yellow-400"></div>
                 <div class="flex flex-col space-y-4 text-gray-700 text-sm leading-relaxed">
                     <p class="font-normal">“We have ambitious plans to transform RSSB, by 2025, into an <br>
                         organisation that is not
@@ -251,25 +267,32 @@
                         thinking; as a national and international <br> thought-leader in social policy; as the leading
                         strategic investor in our <br> chosen markets; and as a prudent but ambitious business partner."
                     </p>
+                    <div class="flex">
+                    <img src="./src/regis.PNG" alt="CEO">
+                    <div class="flex-col">
                     <p class="font-semibold">Regis RUGEMANSHURO</p>
                     <p class="font-normal">CEO, RSSB</p>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- news and events -->
         <div>
-            <div>
-                NEWS && EVENTS
+            <div class="flex items-center justify-center mt-20">
+                <div class="w-[30px] h-[3px] bg-yellow-400"></div>
+                <h1 class="font-bold text-xl text-blue-900">NEWS & EVENTS</h1>
             </div>
             <div class="bg-white py-12 px-6">
                 <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="flex flex-col space-y-4 text-gray-700">
                         <img src="./src/pic1.PNG" alt="RSSB private sectors" class="rounded w-full h-auto">
-                        <p class="text-sm text-gray-500">7 months ago</p>
+                        <p class="text-sm text-gray-500 font-normal">7 months ago</p>
                         <h1 class="text-lg font-semibold text-gray-800 font-normal">RSSB Engages the private Sector on
                             <br> Pension
-                            Reforms and ...</h1>
+                            Reforms and ...
+                        </h1>
                         <p class="text-sm leading-relaxed font-normal">Kigali: Thursday, November 28th,2024 - The <br>
                             Rwanda Social Security Board (RSSB) engaged
                             with the private sector to discuss upcoming pension reforms, h...</p>
@@ -278,8 +301,8 @@
                     </div>
                     <div class="flex flex-col space-y-4 text-gray-700">
                         <img src="./src/pic2.PNG" alt="RSSB basketball" class="rounded w-full h-auto">
-                        <p class="text-sm text-gray-500 ">A year ago</p>
-                        <h1 class="text-sm text-gray-500 font-normal">RSSB champions youth basketball in EjoHeza
+                        <p class="text-sm text-gray-500 font-normal ">A year ago</p>
+                        <h1 class="text-sm text-gray-500 font-semibold">RSSB champions youth basketball in EjoHeza
                             Tournament ...</h1>
                         <p class="text-sm leading-relaxed font-normal">On 14th January 2014, Rwanda Social Security
                             <br>Board (RSSB)
@@ -291,9 +314,9 @@
                     </div>
                     <div class="flex flex-col space-y-4 text-gray-700">
                         <img src="./src/pic3.PNG" alt="RSSB certificates" class="rounded w-full h-auto">
-                        <p class="text-sm text-gray-500">2 years ago</p>
+                        <p class="text-sm text-gray-500 font-normal">2 years ago</p>
                         <h1 class="text-lg font-semibold text-gray-800">RSSB gets data controller certification ...</h1>
-                        <p class="text-sm leading-relaxed">The National Cyber Security Authority (NCSA) <br> presented
+                        <p class="text-sm font-normal leading-relaxed">The National Cyber Security Authority (NCSA) <br> presented
                             Rwanda Social Security
                             Board (RSSB) <br>with Data Controller Certification, following the <br>instituti...</p>
                         <hr class="border-t border-gray-300 mt-2">
@@ -302,6 +325,11 @@
                 </div>
             </div>
         </div>
+        <!-- button -->
+         <div class="items-center justify-center text-center border-blue-900  mb-10">
+            <button class="bg-white border-2 hover:bg-blue-600 hover:text-white hover:border-2 
+            hover:border-blue-500 text-blue-500 px-6 py-3 rounded w-max">View More</button>
+         </div>
         <!-- footer -->
         <footer class="bg-gray-100 text-gray-700 py-10 px-6">
             <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
