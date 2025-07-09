@@ -10,20 +10,21 @@
 <body>
     <div>
         <!-- ICON -->
-        <div class="bg-blue-50 flex justify-between items-center px-8 py-2 text-sm">
-            <div class="flex items-center space-x-4 text-blue-800">
-                <img src="./src/In.SVG" alt="linkedIn" class="h-5 w-5">
+        <div class="bg-blue-50 flex flex-wrap text-center px-8 py-2 text-sm">
+            
+            <div class="flex items-center space-x-4 text-blue-800 mx-auto md:mx-0">
+                <img src="./src/In.SVG" alt="linkedIn" class="h-5 w-5 hover: cursor-pointer">
+                <span class="text-gray">|</span>
+                <img src="./src/twitter.SVG" alt="twitter" class="h-5 w-5  hover: cursor-pointer">
                 <span>|</span>
-                <img src="./src/twitter.SVG" alt="twitter" class="h-5 w-5">
+                <img src="./src/facebook.SVG" alt="facebook" class="h-5 w-5 hover: cursor-pointer">
                 <span>|</span>
-                <img src="./src/facebook.SVG" alt="facebook" class="h-5 w-5">
+                <img src="./src/youtube.SVG" alt="youtube" class="h-5 w-5 hover: cursor-pointer">
                 <span>|</span>
-                <img src="./src/youtube.SVG" alt="youtube" class="h-5 w-5">
-                <span>|</span>
-                <img src="./src/ig.SVG" alt="instagram" class="h-5 w-5">
+                <img src="./src/ig.SVG" alt="instagram" class="h-5 w-5 hover: cursor-pointer">
             </div>
             <div class="flex items-center space-x-6 text-black">>
-                <div class="hover:underline cursor-pointer">Online Services</div>
+                <div class="border-r-1 border-gray-300 pr-8 hover:underline cursor-pointer">Online Services</div>
                 <span>|</span>
                 <div class="hover:underline cursor-pointer">Publications</div>
             </div>
@@ -35,8 +36,8 @@
             <div class="flex items-center space-x-8">
                 <!-- call -->
                 <div class="flex items-center space-x-8">
-                    <img src="./src/call.SVG" alt="call icon" class="w-6 h-6">
-                    <div class="text-sm leading-tight">
+                    <img src="./src/call.SVG" alt="call icon" class="w-6 h-6 rounded-full border-gray-300">
+                    <div class="text-sm leading-tight ml-2">
                         <div class="font-bold text-blue-900">4044</div>
                         <div class="text-gray-500">Toll free lines</div>
                     </div>
@@ -53,8 +54,8 @@
             </div>
         </div>
         <!-- nav bar -->
-        <nav class="bg-blue-700 font-serif sticky text-white hidden md:flex gap-6 text-sm font-semibold 
-                tracking-wide w-full h-20 top-0 rounded-[10px] left-0 z-30 items-center">
+        <nav class="bg-blue-700 font-serif hidden sticky text-white hidden md:flex gap-6 text-sm font-semibold 
+             px-20 py-10 h-20 top-0 rounded-lg gap-5 w-4/5 mx-auto left-0 z-30 items-center">
             <a href="#" class="hover:text-white text-slate-300">HOME</a>
             <a href="#" class="hover:text-white text-slate-300">SCHEMES</a>
             <a href="#" class="hover:text-white text-slate-300">INVESTMENT</a>
@@ -133,8 +134,9 @@
             <!-- Two-Row -->
             <div class="grid grid-cols-3 gap-6 max-w-6xl mx-auto py-12 px-4">
                 <!-- Box 1 -->
-                <div
-                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover ">
+                <div class="flex group border w-full flex-col items-center text-center bg-white p-6 
+                py-[15%] sm:py-[8%] md:h-80 md:w-[32%] md:py-[8%] rounded-md h-60 border-gray-300
+                space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover ">
                     <img src="./src/box1.SVG" alt="Pension Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">PENSION SCHEMES</h1>
                     <p class="text-gray-600 text-sm">Retire With Dignity</p>
@@ -142,7 +144,9 @@
 
                 <!-- Box 2 -->
                 <div
-                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
+                    class="flex group border w-full flex-col items-center text-center bg-white p-6 
+                    py-[15%] sm:py-[8%] md:h-80 md:w-[32%] md:py-[8%] rounded-md h-60 border-gray-300
+                    space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box2.SVG" alt="Hazards Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">OCCUPATIONAL HAZARDS</h1>
                     <p class="text-gray-600 text-sm">We are here for you</p>
@@ -150,7 +154,9 @@
 
                 <!-- Box 3 -->
                 <div
-                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
+                    class="flex group border w-full flex-col items-center text-center bg-white p-6 
+                    py-[15%] sm:py-[8%] md:h-80 md:w-[32%] md:py-[8%] rounded-md h-60 border-gray-300
+                    space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box3.SVG" alt="Medical Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">MEDICAL SCHEMES</h1>
                     <p class="text-gray-600 text-sm">Our Health, Our Future</p>
@@ -158,7 +164,9 @@
 
                 <!-- Box 4 -->
                 <div
-                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
+                    class="flex group border w-full items-center text-center bg-white p-6 
+                    py-[15%] sm:py-[8%] md:h-80 md:w-[32%] md:py-[8%] rounded-md h-60 border-gray-300
+                 space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box4.SVG" alt="CBHI Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">CBHI SCHEMES</h1>
                     <p class="text-gray-600 text-sm">Giving Your Happiness At Best Rate</p>
@@ -166,7 +174,9 @@
 
                 <!-- Box 5 -->
                 <div
-                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
+                    class="flex group border w-full items-center text-center bg-white p-6
+                    py-[15%] sm:py-[8%] md:h-80 md:w-[32%] md:py-[8%] rounded-md h-60 border-gray-300
+                    space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box5.SVG" alt="EjoHeza Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">EJOHEZA</h1>
                     <p class="text-gray-600 text-sm">Start Early And Reap the Reward</p>
@@ -174,7 +184,9 @@
 
                 <!-- Box 6 -->
                 <div
-                    class="flex flex-col items-center text-center bg-white p-6 rounded shadow space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
+                    class="flex group border w-full items-center text-center bg-white p-6 
+                    py-[15%] sm:py-[8%] md:h-80 md:w-[32%] md:py-[8%] rounded-md h-60 border-gray-300
+                     space-y-2 hover:bg-[url('abasaza.JPEG')] bg-cover">
                     <img src="./src/box6.SVG" alt="Maternity Icon" class="h-12">
                     <h1 class="font-bold text-sm text-gray-800">MATERNITY LEAVE</h1>
                     <p class="text-gray-600 text-sm">Enjoy Your Maternity Leave With Your Full Salary</p>
@@ -302,8 +314,8 @@
                     <div class="flex flex-col space-y-4 text-gray-700">
                         <img src="./src/pic2.PNG" alt="RSSB basketball" class="rounded w-full h-auto">
                         <p class="text-sm text-gray-500 font-normal ">A year ago</p>
-                        <h1 class="text-sm text-gray-500 font-semibold">RSSB champions youth basketball in EjoHeza
-                            Tournament ...</h1>
+                        <h1 class="text-gray-600 md:text-blue-900 font-semibold md:font-bold">RSSB champions 
+                            youth basketball in EjoHeza Tournament ...</h1>
                         <p class="text-sm leading-relaxed font-normal">On 14th January 2014, Rwanda Social Security
                             <br>Board (RSSB)
                             participated
@@ -315,7 +327,7 @@
                     <div class="flex flex-col space-y-4 text-gray-700">
                         <img src="./src/pic3.PNG" alt="RSSB certificates" class="rounded w-full h-auto">
                         <p class="text-sm text-gray-500 font-normal">2 years ago</p>
-                        <h1 class="text-lg font-semibold text-gray-800">RSSB gets data controller certification ...</h1>
+                        <h1 class="text-lg font-semibold text-gray-800 md:text-blue-900 md:font-bold">RSSB gets data controller certification ...</h1>
                         <p class="text-sm font-normal leading-relaxed">The National Cyber Security Authority (NCSA) <br> presented
                             Rwanda Social Security
                             Board (RSSB) <br>with Data Controller Certification, following the <br>instituti...</p>
@@ -335,36 +347,31 @@
             <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div class="flex flex-col space-y-2">
                     <h1 class="text-lg font-semibold text-gray-800 mb-2 uppercase">get in touch</h1>
-                    <p class="font-normal">KN 3 Rd African Union Boulevard</p>
-                    <p class="font-normal">Kiyovu, Nyarugenge</p>
-                    <p class="font-normal">P.O Box 250/6655 Kigali-Rwanda</p>
-                    <p class="font-normal">Tel: 4044 Toll free line</p>
-                    <p class="font-normal">5006 EjoHeza</p>
+                    <p class="font-normal  hover:underline cursor-pointer">KN 3 Rd African Union Boulevard</p>
+                    <p class="font-normal hover:underline cursor-pointer">Kiyovu, Nyarugenge</p>
+                    <p class="font-normal hover:underline cursor-pointer">P.O Box 250/6655 Kigali-Rwanda</p>
+                    <p class="font-normal hover:underline cursor-pointer">Tel: 4044 Toll free line</p>
+                    <p class="font-normal text-center w-2/3 hover:underline cursor-pointer">5006 EjoHeza</p>
                 </div>
                 <div class="flex flex-col space-y-2">
                     <h1 class="text-lg font-semibold text-gray-800 mb-2 uppercase">Important Links</h1>
-                    <p class="font-normal">Tenders</p>
-                    <p class="font-normal">Gallery</p>
-                    <p class="font-normal">Announcements</p>
-                    <p class="font-normal">Privacy Policy</p>
+                    <p class="font-normal hover:underline cursor-pointer">Tenders</p>
+                    <p class="font-normal  hover:underline cursor-pointer">Gallery</p>
+                    <p class="font-normal  hover:underline cursor-pointer">Announcements</p>
+                    <p class="font-normal  hover:underline cursor-pointer">Privacy Policy</p>
                 </div>
                 <div class="flex flex-col space-y-2">
                     <h1 class="text-lg font-semibold text-gray-800 mb-2 uppercase">services</h1>
-                    <p class="font-normal">Apply for employee number</p>
-                    <p class="font-normal">Check for your contributions</p>
-                    <p class="font-normal">Pay employee contributions</p>
-                    <p class="font-normal">Pension simulator</p>
-                    <p class="font-normal">RSSB clearance certificate</p>
+                    <p class="font-normal border-r-1 border-gray-300 pr-8 hover:underline cursor-pointer">Apply for employee number</p>
+                    <p class="font-normal  border-r-1 border-gray-300 pr-8 hover: underline cursor-pointer">Check for your contributions</p>
+                    <p class="font-normal border-r-1 border-gray-300 pr-8 hover: underline cursor-pointer">Pay employee contributions</p>
+                    <p class="font-normal border-r-1 border-gray-300 pr-8 hover: underline cursor-pointer">Pension simulator</p>
+                    <p class="font-normal border-r-1 border-gray-300 pr-8 hover: underline cursor-pointer">RSSB clearance certificate</p>
                 </div>
             </div>
-            <hr class="border-t border-gray-300 mb-6">
-            <p class="text-center font-normal text-sm text-gray-500">© 2025 Rwanda Social Security Board</p>
+            <hr class="border-t border-gray-300 mb-6 mt-10">
+            <p class="font-normal py-24 text-gray-500">© 2025 Rwanda Social Security Board</p>
         </footer>
-
-
-
-
-
 
 
 
